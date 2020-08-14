@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url("common.css");
+@import url("sideMenu.css");
+
+.page-board{
+	padding:70px 0 170px; 
+}
+
+/* ////////////////////////////////////////// */
+#list>div{
+	width: 880px;
+	margin-left: 20px;
+}
+#list>div>div{
+	padding-bottom: 28px;
+}
+#list>div>div>p.page-tit{
+	height: 42px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+}
+#list ul.list1 li.goods{
+	display: flex;
+}
+#list ul.list1 li.goods a.goods-img{
+	display: block;
+	margin-bottom: 16px;
+	width: 100px;
+	height: 135px;
+	cursor: pointer;
+	overflow: hidden;
+	font-size:0; 
+}
+#list ul.list1 li.goods a.goods-img img{
+	display: block;
+	width: 100;
+	height: 135px;
+	background-position: inherit;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform : scale(1);
+	transition: all 0.2s ease-in; 
+	background-image: url("../images/p_2.jpg");
+}
+#list div.pagging a:hover{
+	cursor: pointer;
+}
